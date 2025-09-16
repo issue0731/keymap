@@ -1,0 +1,10 @@
+{
+  "name": "Keymap Development",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Keymap App",
+      "onAutoForward": "notify"
+    }
+  }
+}

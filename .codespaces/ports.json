@@ -3,7 +3,8 @@
     {
       "port": 3000,
       "label": "Keymap App",
-      "onAutoForward": "notify"
+      "onAutoForward": "notify",
+      "visibility": "public"
     }
   ]
 }

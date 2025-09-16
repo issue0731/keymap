@@ -8,7 +8,14 @@ export default defineConfig({
     port: 3000,
     strictPort: false,
     hmr: {
-      port: 3000
+      port: 3000,
+      host: 'localhost'
+    },
+    cors: true,
+    proxy: {},
+    // Codespaces 전용 설정
+    watch: {
+      usePolling: true
     }
   }
 })

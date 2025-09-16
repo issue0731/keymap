@@ -5,7 +5,8 @@
       "label": "Keymap App",
       "onAutoForward": "notify",
       "visibility": "public",
-      "protocol": "https"
+      "protocol": "https",
+      "requireLocalPort": false
     }
   ]
 }

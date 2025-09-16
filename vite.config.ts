@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: 3000,
+    port: 3001,
     strictPort: false,
     hmr: {
       port: 3000,
@@ -16,6 +16,11 @@ export default defineConfig({
     // Codespaces 전용 설정
     watch: {
       usePolling: true
+    },
+    // 추가 설정
+    middlewareMode: false,
+    fs: {
+      strict: false
     }
   }
 })
